@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+#footer-h2{
+    font-size: 50px;
+}
+
+img{
+    width: 32px;
+    height: 32px;
+    background-color: #ebd96b;
+    border-radius: 6px;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cta-email {
+    background-color: #E6C744;
+    height: 65vh;
+    color: white;
+    text-align: center;
+}
+
+.cta-text {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+input {
+    padding: 15px 50px;
+    text-align: left;
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+input[type="email"]::placeholder{
+    text-align: left;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+}
+
+.footer ul li a {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #C2C8DA;
+    text-decoration: none;
+
+}
+
+#top {
+    color: white;
+}
+
+#subtext{
+    color: #C2C8DA;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 900px;
+}
+
+.left-footer {
+    height: 200px;
+    width: 300px;
+    margin: 10px 100px;
+
+}
+
+.footer ul li {
+    list-style-type: none;
+    /* margin-bottom: 20px; */
+    padding-top: 20px;
+    width: 220px;
+}
+
+#margin{
+    /* margin-right: 180px; */
+}
+
+.right-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 200px;
+    width: 900px;
+    height: 300px;
+
+}
+
+.socials{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    max-width: 180px;
+}
